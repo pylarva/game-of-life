@@ -11,7 +11,7 @@ pipeline {
         sh '/usr/local/maven/bin/mvn test'
       }
     }
-    stage('') {
+    stage('deploy') {
       steps {
         sh 'echo "start deploy..."'
       }
