@@ -496,3 +496,10 @@
         </profile>
     </profiles>
 </project>
+<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>localhost-releases</name>
+        <url>http://192.168.31.10:8040/artifactory/libs-release</url>
+    </repository>
+</distributionManagement>
